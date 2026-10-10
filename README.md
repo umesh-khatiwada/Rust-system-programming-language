@@ -2,6 +2,12 @@
 
 A 12-week study plan, setup guide, and ready-to-use README for your learning repository.
 
+
+Rust Book: https://doc.rust-lang.org/book/
+Rust Install Docs: https://doc.rust-lang.org/book/ch01-0...
+Rust Installer Download Page: https://www.rust-lang.org/tools/install
+
+
 ## 1. Overview
 
 **Goal:** Go from zero Rust knowledge to writing intermediate-level programs: ownership and borrowing, traits and generics, error handling, iterators, concurrency, testing, and publishing a real CLI tool.

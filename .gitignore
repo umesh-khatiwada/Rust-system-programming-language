@@ -1,0 +1,65 @@
+# Rust / Cargo
+/target/
+**/target/
+**/*.rs.bk
+*.rmeta
+
+# Cargo.lock strategy:
+# Uncomment the line below if you don't want to track lockfiles in examples/crates
+# Cargo.lock
+
+# Compiled Binaries & Libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.rlib
+*.pdb
+*.a
+*.o
+
+# IDE & Editor Settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.vscode-test/
+
+# Vim / Emacs Swap & Backup Files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+*~
+\#*\#
+.#*
+
+# OS Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment & Secret Files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Logs & Temporary Files
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
