@@ -1,12 +1,43 @@
 # Learning Rust on Linux: Beginner to Intermediate
 
-A 12-week study plan, setup guide, and ready-to-use README for your learning repository.
+A 12-week Rust study plan with a Linux setup guide, resource list, project ladder and journal templates.
 
+## About this repository
 
-Rust Book: https://doc.rust-lang.org/book/
-Rust Install Docs: https://doc.rust-lang.org/book/ch01-0...
-Rust Installer Download Page: https://www.rust-lang.org/tools/install
+This repo is a personal learning guide for Rust on Linux. It contains the study plan (this README) and a first practice project, `example1/hello_rust` (a minimal Cargo binary using Rust edition 2024).
 
+```
+.
+├── README.md                 # Study plan and setup guide
+└── example1/hello_rust/      # Cargo binary: prints "Hello, world!" and a variable
+```
+
+Run the example:
+
+```bash
+cd example1/hello_rust
+cargo run
+```
+
+## Table of contents
+
+1. [Overview](#1-overview)
+2. [Linux Environment Setup](#2-linux-environment-setup)
+3. [Resources](#3-resources)
+4. [The 12-Week Plan](#4-the-12-week-plan)
+5. [Project Ladder](#5-project-ladder)
+6. [Weekly Routine](#6-weekly-routine)
+7. [Progress Checklist](#7-progress-checklist)
+8. [Common Pitfalls and Tips](#8-common-pitfalls-and-tips)
+9. [Quick Reference](#9-quick-reference)
+10. [README.md for Your Learning Repository](#10-readmemd-for-your-learning-repository)
+11. [After Week 12: Where to Go Next](#11-after-week-12-where-to-go-next)
+
+## Official links
+
+- The Rust Programming Language (the Book): https://doc.rust-lang.org/book/
+- Installing Rust (Book, chapter 1.1): https://doc.rust-lang.org/book/ch01-01-installation.html
+- Rust installer download page: https://www.rust-lang.org/tools/install
 
 ## 1. Overview
 
@@ -506,3 +537,11 @@ Commit `Cargo.lock` for binaries and applications; it is optional for libraries.
 - **Keep practicing:** Advent of Code in Rust each December is an excellent way to build fluency.
 
 *Good luck, and enjoy the compiler's strictness. It is the best code reviewer you will ever have.*
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+## Author
+
+Umesh Khatiwada - [@umesh-khatiwada](https://github.com/umesh-khatiwada)
